@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Digital</title>
+    <link rel="stylesheet" href="cs/style.css">
+</head>
+<body>
+    <header>
+        <h1>Biblioteca Digital</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Libros</a>
+                    <div class="dropdown-content">
+                        <a href="#" onclick="showSection('secundaria')">Secundaria</a>
+                        <a href="#" onclick="showSection('universidad')">Universidad</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido a la Biblioteca Digital</h2>
+            <p> ACERCA DEL SITIO WEB :
+
+                Bienvenidos a nuestra Biblioteca Digital, un espacio dedicado a ofrecer libros en formato PDF para estudiantes de secundaria y universidad.
+                 Nuestro sitio proporciona acceso fácil y gratuito a una amplia variedad de textos educativos, organizados en dos secciones principales: Libros de Secundaria y Libros Universitarios.
+                  Navega por nuestra colección y descarga los libros que necesitas para apoyar tu educación y aprendizaje. </p>
+
+                  <p>MOTIVACION DE LA CREACION :
+
+                    La Biblioteca Digital fue creada con el objetivo de facilitar el acceso a materiales educativos de calidad,
+                     especialmente en tiempos en los que el acceso a recursos impresos puede ser limitado. Queremos brindar una solución accesible para estudiantes y educadores, 
+                     ofreciendo una plataforma donde puedan encontrar y descargar libros esenciales para sus estudios sin costo alguno.</p>
+
+                     <p>IMPORTANCIA DEL PROYECTO :
+
+                        Este proyecto es fundamental para garantizar que todos los estudiantes tengan acceso a los recursos necesarios para su formación académica.
+                         Al ofrecer libros en formato digital, eliminamos barreras económicas y geográficas,permitiendo que más personas puedan beneficiarse 
+                         de una educación de calidad. La digitalización de estos textos no solo facilita su acceso,
+                          sino que también contribuye a la preservación de recursos educativos importantes.</p>
+        </section>
+        <section id="secundaria" class="book-section">
+            <h2>Libros de Secundaria</h2>
+            <p>Encuentra una variedad de libros diseñados para estudiantes de secundaria, cubriendo múltiples materias y temas para apoyar tu educación.</p>
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="imagenes/Matematica.png" alt="Libro 1">
+                    <h3>MATEMATICA 10mo Grado</h3>
+                    <p><a href="https://nicaraguaeduca.mined.gob.ni/wp-content/uploads/2020/03/Lmatematicas10mo_unlocked.pdf" target="_blank">Leer libro</a></p>
+                </div>
+                <div class="book-item">
+                    <img src="imagenes/lengua.png" alt="Libro 2">
+                    <h3>LENGUA Y LITERATURA 10mo Grado</h3>
+                    <p><a href="https://nicaraguaeduca.mined.gob.ni/wp-content/uploads/2021/03/LLenguayliteratura10mo_unlocked_unlocked.pdf" target="_blank">Leer libro</a></p>
+                </div>
+                <div class="book-item">
+                    <img src="imagenes/ingles.png" alt="Libro 3">
+                    <h3>INGLES 10mo Grado</h3>
+                    <p><a href="https://nicaraguaeduca.mined.gob.ni/wp-content/uploads/2021/02/LIngles10mo_unlocked.pdf" target="_blank">Leer libro</a></p>
+                </div>
+                <div class="book-item">
+                    <img src="imagenes/naturales.png" alt="Libro 7">
+                    <h3>CIENCIAS NATURALES 9mo Grado</h3>
+                    <p><a href="https://nicaraguaeduca.mined.gob.ni/wp-content/uploads/2020/03/Lcienciasnaturales9no_unlocked.pdf" target="_blank">Leer libro</a></p>
+                </div>
+                <div class="book-item">
+                    <img src="imagenes/sociales.png" alt="Libro 8">
+                    <h3>CIENCIA SOCIALES 10mo Grado</h3>
+                    <p><a href="https://nicaraguaeduca.mined.gob.ni/wp-content/uploads/2021/03/LEstudiosociales10mo_unlocked.pdf" target="_blank">Leer libro</a></p>
+                </div>
+               
+                <!-- Agrega más libros de secundaria aquí -->
+            </div>
+        </section>
+        <section id="universidad" class="book-section">
+            <h2>Libros de Universidad</h2>
+            <p>Accede a una colección de libros académicos y de referencia para estudiantes universitarios, abarcando una amplia gama de disciplinas y áreas de estudio.</p>
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="imagenes/medicina general.png" alt="Libro 4">
+                    <h3>MEDICINA GENERAL</h3>
+                    <p><a href="https://fundacionortizavila.com/descargar/338/045e439a866e0a2c0c7b004ef836c415" target="_blank">Leer libro</a></p>
+                </div>
+                <div class="book-item">
+                    <img src="imagenes/bioanalisis.png" alt="Libro 5">
+                    <h3>BIOANLISIS </h3>
+                    <p><a href="https://laamericanuniversity.edu.ni/Libro%20Virtual/pensul2013/files/assets/downloads/page0005.pdf" target="_blank">Leer libro</a></p>
+                </div>
+                <div class="book-item">
+                    <img src="imagenes/diseño.png" alt="Libro 6">
+                    <h3>DISEÑO GRAFICO</h3>
+                    <p><a href="https://editorial.uaa.mx/docs/diseno_grafico.pdf" target="_blank">Leer libro</a></p>
+                </div>
+                <!-- Agrega más libros de universidad aquí -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Derechos de I A R S</p>
+    </footer>
+    <script src="js/scritps.js"></script>
+</body>
+</html>
+
+
